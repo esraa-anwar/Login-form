@@ -1,0 +1,75 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  justify-items: center;
+}
+.logo {
+  width: 10%;
+}
+
+.inputField {
+  color: #474746;
+  text-align: start;
+  width: 30%;
+  min-width: 150px;
+  padding: 10px;
+  text-align: center;
+  background: rgba(223, 235, 228, 0.8);
+  font-size: 20px;
+  caret-color: #bebebe;
+  border-radius: 15px;
+  border: 3px solid #bebebe;
+  transition: width 0.5s ease-in-out;
+}
+.inputField::placeholder {
+  color: #474746;
+  text-align: left;
+}
+
+.loginButton {
+  width: 30%;
+  min-width: 150px;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  font-size: 20px;
+  caret-color: #bebebe;
+  border-radius: 15px;
+  font-size: 1rem;
+  transition: width 0.5s ease-in-out;
+}
+.facebook {
+  border: 3px solid #5d98cc;
+  color: #5d98cc;
+}
+.google {
+  border: 3px solid #c12f2f;
+  color: #c12f2f;
+}
+.apple {
+  border: 3px solid #474746;
+  color: #474746;
+}
+.button {
+  cursor: pointer;
+  border: 3px solid #bebebe;
+  color: #fff;
+  background-color: #bebebe;
+}
+.name {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #474746;
+}
+.name span {
+  color: #3f3f3a;
+  font-weight: bold;
+}
+.para {
+  color: #474746;
+  font-size: 1rem;
+}
+.icon {
+  margin-right: 1rem;
+}
